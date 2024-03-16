@@ -1,0 +1,34 @@
+PlayerData:
+- ==: me.jaymar.ce3.Data.EntityData.CE_Player
+  Skills:
+    ==: me.jaymar.ce3.Data.EntityData.PlayerSkills
+    AGILITY: 0
+    SWORD_MASTERY: 0
+    MANA_CHARGE: 0
+    PENETRATION: 0
+    STRENGTH: 1
+    LEVEL: 1
+    WIZARD_MASTERY: 0
+    INTELLIGENCE: 0
+    UNSWERVING_SHOT: 0
+    SWIFT_ESCAPE: 0
+    BOW_MASTERY: 0
+    XP: 18.0
+    BERSERK: 0
+    PASSIVE_POINTS: 0
+    MOB_KILLS: 0
+    POINTS: 0
+    HOURGLASS: 0
+    PLAYER_KILLS: 0
+  HealthRegen: 0.015
+  PlayerClass: NONE
+  ManaRegen: 0.0
+  MovementSpeed: 0.0
+  UUID: da9e8baf-caca-35c1-b1bd-34d347cf1af2
+PlayerAllies:
+- ==: me.jaymar.ce3.Data.EntityData.PlayerAlly
+  PLAYER: da9e8baf-caca-35c1-b1bd-34d347cf1af2
+  ALLIES: []
+HideActionBar: []
+CURRENCY_HOLDER:
+- da9e8baf-caca-35c1-b1bd-34d347cf1af2: 0

@@ -1,0 +1,744 @@
+[08:54:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:54:56] [ServerMain/INFO]: Loaded 1174 recipes
+[08:54:56] [ServerMain/INFO]: Loaded 1271 advancements
+[08:54:56] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[08:54:56] [Server thread/WARN]: ****************************
+[08:54:56] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[08:54:56] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[08:54:56] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[08:54:56] [Server thread/WARN]: ****************************
+[08:54:56] [Server thread/INFO]: Loading properties
+[08:54:56] [Server thread/INFO]: This server is running Paper version git-Paper-436 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 850b736)
+[08:54:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:54:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:54:57] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[08:54:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[08:54:58] [Server thread/INFO]: Default game type: SURVIVAL
+[08:54:58] [Server thread/INFO]: Generating keypair
+[08:54:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:54:58] [Server thread/INFO]: Using epoll channel type
+[08:54:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[08:54:58] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[08:54:59] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[08:55:02] [Server thread/WARN]: Legacy plugin FarmProtect v1.9.0 does not specify an api-version.
+[08:55:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.2
+[08:55:02] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.2 is now loaded. Registering protocol transformers and injecting...
+[08:55:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[08:55:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[08:55:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[08:55:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[08:55:03] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.119
+[08:55:03] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+73-2cb0af0
+[08:55:03] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.1
+[08:55:03] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+73-2cb0af0
+[08:55:03] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.7
+[08:55:03] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
+[08:55:03] [Server thread/INFO]: [FarmProtect] Loading server plugin FarmProtect v1.9.0
+[08:55:03] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.2.4
+[08:55:03] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v6.6
+[08:55:03] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v3.1.16
+[08:55:03] [Server thread/INFO]: [TreeAssist] Loading server plugin TreeAssist v7.3.27
+[08:55:03] [Server thread/INFO]: [TreeAssist] Loading main config file: /config.yml
+[08:55:03] [Server thread/WARN]: [TreeAssist] No valid node: General.Auto Destruct Ignores Unexpected Blocks
+[08:55:03] [Server thread/WARN]: [TreeAssist] config.yml: Plugins.AureliumPerBlock expects integer, double given. Trying to round!
+[08:55:03] [Server thread/WARN]: [TreeAssist] config.yml: Plugins.AureliumPerTree expects integer, double given. Trying to round!
+[08:55:03] [Server thread/WARN]: [TreeAssist] Invalid Material in TreeConfig default.yml - Node Natural Blocks entry invalid: minecraft:grass
+[08:55:04] [Server thread/INFO]: [MoreOres] Loading server plugin MoreOres v1.13.9
+[08:55:04] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+73-2cb0af0
+[08:55:04] [Server thread/INFO]: [BedHome] Loading server plugin BedHome v2.35
+[08:55:04] [Server thread/INFO]: [ChestSort] Loading server plugin ChestSort v14.0.0
+[08:55:04] [Server thread/INFO]: [Enchantments_plus] Loading server plugin Enchantments_plus v4.0.5
+[08:55:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:55:04] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.119
+[08:55:04] [Server thread/INFO]:         __    
+[08:55:04] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.119
+[08:55:04] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[08:55:04] [Server thread/INFO]: 
+[08:55:04] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[08:55:04] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[08:55:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[08:55:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[08:55:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1632ms)
+[08:55:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.7
+[08:55:06] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.4.
+[08:55:06] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[08:55:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:55:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:55:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:55:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:55:06] [Server thread/INFO]: Preparing level "world"
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.7
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 301d078
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[08:55:07] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[08:55:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:55:07] [Server thread/INFO]: Time elapsed: 395 ms
+[08:55:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:55:07] [Server thread/INFO]: Time elapsed: 73 ms
+[08:55:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:55:07] [Server thread/INFO]: Time elapsed: 65 ms
+[08:55:07] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.2
+[08:55:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3 (765)
+[08:55:08] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+73-2cb0af0
+[08:55:08] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[08:55:08] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[08:55:09] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
+[08:55:09] [Server thread/INFO]: [Essentials] Using locale en
+[08:55:09] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[08:55:09] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[08:55:09] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[08:55:09] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[08:55:09] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[08:55:09] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.1
+[08:55:09] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+73-2cb0af0
+[08:55:09] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[08:55:09] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[08:55:09] [Server thread/INFO]: [FarmProtect] Enabling FarmProtect v1.9.0*
+[08:55:10] [pool-24-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[08:55:11] [Thread-15/INFO]: [FarmProtect] About to download a new update: FarmProtect v1.9.0
+[08:55:11] [Thread-15/INFO]: [FarmProtect] Downloading update: 60% of 42920 bytes.
+[08:55:11] [Thread-15/INFO]: [FarmProtect] Downloading update: 70% of 42920 bytes.
+[08:55:11] [Thread-15/INFO]: [FarmProtect] Downloading update: 100% of 42920 bytes.
+[08:55:11] [Thread-15/INFO]: [FarmProtect] Finished updating.
+[08:55:11] [Server thread/INFO]: [FarmProtect] Version 1.9.0 by jacklin213 has been Enabled!
+[08:55:11] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.2.4
+[08:55:11] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[08:55:11] [Server thread/INFO]: [VeinMiner] Added 13 aliases.
+[08:55:11] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[08:55:11] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[08:55:11] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Using SQLITE for persistent storage.
+[08:55:11] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[08:55:11] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[08:55:11] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[08:55:11] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[08:55:11] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[08:55:11] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[08:55:11] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[08:55:11] [Server thread/INFO]: [VeinMiner] Registering commands
+[08:55:11] [Server thread/INFO]: [VeinMiner] Registering events
+[08:55:11] [Server thread/INFO]: [VeinMiner] Vault not found. Economy support suspended
+[08:55:11] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[08:55:11] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[08:55:11] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.6
+[08:55:11] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[08:55:11] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 6.6
+[08:55:11] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[08:55:11] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[08:55:11] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v3.1.16
+[08:55:11] [Server thread/INFO]: [TreeAssist] Enabling TreeAssist v7.3.27
+[08:55:11] [Server thread/INFO]: [TreeAssist] sending full Metrics! You can deactivate this in the config.yml
+[08:55:12] [Server thread/INFO]: [TreeAssist] debugging: off
+[08:55:12] [Server thread/INFO]: [MoreOres] Enabling MoreOres v1.13.9
+[08:55:12] [Thread-22/INFO]: [TreeAssist] Checking for updates...
+[08:55:12] [Thread-22/INFO]: [TreeAssist] You are using §ev7.3.27§f, an outdated version! Latest §ebeta§r build: §av7.3.51
+[08:55:12] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] You are on the latest version of VeinMiner.
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/WARN]: Found inconsistent skull meta, this should normally not happen and is not a Bukkit / Spigot issue, but one from a plugin you are using.
+Bukkit will attempt to fix it this time for you, but may not be able to do this every time.
+If you see this message after typing a command from a plugin, please report this to the plugin developer, they should use the api instead of relying on reflection (and doing it the wrong way).
+[08:55:12] [Server thread/INFO]: More Ores Loaded Successfully! :-D
+[08:55:12] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+73-2cb0af0
+[08:55:12] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[08:55:12] [Server thread/INFO]: [BedHome] Enabling BedHome v2.35
+[08:55:12] [Server thread/WARN]: [BedHome] /!\======================NOTICE======================/!\
+[08:55:12] [Server thread/WARN]: [BedHome] Since the last version of the plugin, the locale has had vital items added to it.
+[08:55:12] [Server thread/WARN]: [BedHome] Thanks to Bukkit's crappy encoding handling, we'll have to delete your locale to regenerate it.
+[08:55:12] [Server thread/WARN]: [BedHome] But, we will back up your old file so you can migrate any changes.
+[08:55:12] [Server thread/WARN]: [BedHome] The backup file is called "locale.yml.old"
+[08:55:12] [Server thread/WARN]: [BedHome] /!\======================NOTICE======================/!\
+[08:55:12] [Server thread/INFO]: [ChestSort] Enabling ChestSort v14.0.0
+[08:55:12] [Server thread/INFO]: [ChestSort] Use permissions: true
+[08:55:12] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color},{customName}
+[08:55:12] [Server thread/INFO]: [ChestSort] Allow automatic chest sorting:true
+[08:55:12] [Server thread/INFO]: [ChestSort]   |- Chest sorting enabled by default: false
+[08:55:12] [Server thread/INFO]: [ChestSort]   |- Sort time: close
+[08:55:12] [Server thread/INFO]: [ChestSort] Allow automatic inventory sorting:true
+[08:55:12] [Server thread/INFO]: [ChestSort]   |- Inventory sorting enabled by default: false
+[08:55:12] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[08:55:12] [Server thread/INFO]: [ChestSort] Allow hotkeys: true
+[08:55:12] [Server thread/INFO]: [ChestSort] Hotkeys enabled by default:
+[08:55:12] [Server thread/INFO]: [ChestSort]   |- Middle-Click: true
+[08:55:12] [Server thread/INFO]: [ChestSort]   |- Shift-Click: true
+[08:55:12] [Server thread/INFO]: [ChestSort]   |- Double-Click: true
+[08:55:12] [Server thread/INFO]: [ChestSort]   |- Shift-Right-Click: true
+[08:55:12] [Server thread/INFO]: [ChestSort] Allow additional hotkeys: true
+[08:55:12] [Server thread/INFO]: [ChestSort] Additional hotkeys enabled by default:
+[08:55:12] [Server thread/INFO]: [ChestSort]   |- Left-Click: false
+[08:55:12] [Server thread/INFO]: [ChestSort]   |- Right-Click: false
+[08:55:12] [Server thread/INFO]: [ChestSort] Check for updates: true
+[08:55:12] [Server thread/INFO]: [ChestSort] Check interval: 4 hours (4.0 seconds)
+[08:55:12] [Server thread/INFO]: [ChestSort] Categories: 900-weapons (6), 905-common-tools (4), 907-other-tools (6), 909-food (33), 910-valuables (47), 920-armor-and-arrows (9), 930-brewing (18), 950-redstone (23), 960-wood (60), 970-stone (38), 980-plants (50), 981-corals (1)
+[08:55:12] [Server thread/INFO]: [Enchantments_plus] Enabling Enchantments_plus v4.0.5
+[08:55:12] [Server thread/INFO]: [Enchantments_plus] Loading magic compatibillity file, if this step fails you should notify the devs about this.
+[08:55:13] [Server thread/INFO]: [Enchantments_plus] Enchantments+ v4.0.5 started up in 179ms
+[08:55:13] [Server thread/INFO]: Running delayed init tasks
+[08:55:13] [Server thread/INFO]: Done (16.708s)! For help, type "help"
+[08:55:13] [Server thread/INFO]: Timings Reset
+[08:55:13] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[08:55:13] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[08:55:13] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.9.3, you're on: 4.9.2
+[08:55:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:JD *_*(703685809772953620)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:czat(710225993754869820)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎉🤗nowi-członkowie(710219088525525003)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:😞opuszcający-server(710219991286284389)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:chętni-do-gry(703685809772953623)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:wewe(733777129132785745)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Bereciki Krecika <3(583977126366281762)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┆💬┆czat(881803224800170044)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📩︱open-a-ticket(1111294121726967808)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┆💬┆czat(814611611822063617)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:fivem(1036716030019518574)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:notpron(1067531511605244024)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎇︱rules(1111313326371246119)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🧻︱role-info(1111313417349890159)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔧︱get-roles(1111313472580501604)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📣︱announcements(1111313532844245103)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🆙︱lvl-up(1111346837153136640)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💬︱general(1133769389242589295)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💬︱technical-stuff(1111316045676941402)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📸︱media(1111316083786395708)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🤖︱bot-commands(1111316113217826956)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💩︱memes(1111316146226991124)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎮︱freestuff(1028973144414892102)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📜︱showcase-rules(1111316470845145098)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎨︱art(1111316519692009482)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💻︱desk-setups(1111316560733294692)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⛺︱wallpapers(1111316596913340436)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🚃︱server-suggestions(1111317412827123784)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🎬︱movie-suggestions(1111317450093506752)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🔇︱vc-text-spam(1111317923814981752)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:💎︱high-table(1111319324976762900)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:punishment-book(1111322501969096794)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-chat(1111322530909798480)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:moderation-commands(1111322561654030366)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ticket-transcripts(1111322624136577136)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mod-logs(1111322650237739139)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:spam-logs(1111322682651312148)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:beemo-logs(1111322706810515517)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:message-logs(1111322742051053619)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:member-logs(1111324769812500500)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:role-logs(1111322767242047498)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:channel-logs(1111322800519651390)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:voice-logs(1111322827954589836)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:admin-chat(1111323135631962174)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:discord-updates(1111323173049348116)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┆🎊┆welcome(609720019479298058)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┆👋┆goodbye(609726346414915589)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:lista-rzeczy-których-nienawidzi-gałwun(799705312407584768)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:lista-rzeczy-których-nienawidzi-neon(799705398248079361)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:lista-rzeczy-których-nienawidzi-black(799761767089438720)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:lista-rzeczy-których-nienawidzi-kiedomek(800076104269561866)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:lista-rzeczy-których-nienawidzi-mikołaj(800488925365665871)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┆😹┆memes(814603729055252571)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┆💬┆chat(798271435507367966)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:wick-logs(940634593529303080)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:modlogs(940634594636603432)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:moderator-only(797224981690974259)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:┆💬┆czat(814611564933546034)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:czat-skin(731167969391935518)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:czat(744547208145403984)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:czat(743730653346136114)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:czat(693155321182421003)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:czat(727587944109703208)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:czat(673516143516057610)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:czat(637729376275791904)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:czat(609726592390004736)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test(613002240474611712)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:logi(687348605136404516)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:logi-kanal(814612436527218729)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:weryfikacja-logi(797872721752358912)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:logi-role(814612782002733086)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:zasady(731140511368478810)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:logibot(1003621871788511232)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:auto-mod(1021509244027142195)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:modlog(1070784391481147515)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:closed-0004(1193232089915604992)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Serwer użytkownika Gałwun(995799397487087757)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(995799397487087760)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:konsola(995799428717891584)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:qb(1005466154233495603)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:changelog(1008471810544775349)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:do-wklejenia(1008483216094658603)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Gałwun(1023568592979120228)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:carseller(1091783517836411012)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:jobnotif(1091783537432199188)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:twitterweb(1091783562677735565)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:yellowweb(1091783591324823592)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:instagramweb(1091783609842683974)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:crypto(1091783625193836705)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:banktrasnfer(1091783641291554976)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:xd(1097490946146435132)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:nitro(1109165473771290794)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:q12121efse(1110298751077187686)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:phone(1127561289665892352)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:log(1127561866563047444)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:przegrane-wygrane-gry(1129468877751988354)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:asd(1212450741332222074)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft(1213929749848522782)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:konsola(1213931499083272252)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:0-players-online(1213937627682705458)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:current-tps-200(1213937661115371540)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:konsola(1213931499083272252)
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[08:55:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[08:55:14] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 4/4 guilds (0 cancelled)
+[08:55:16] [Server thread/INFO]: [TreeAssist] The plugin could not updated, download the new version here: https://www.spigotmc.org/resources/treeassist.67436/
+[08:56:57] [User Authenticator #0/INFO]: UUID of player Galwun is da9e8baf-caca-35c1-b1bd-34d347cf1af2
+[08:56:59] [Server thread/INFO]: Galwun joined the game
+[08:56:59] [Server thread/INFO]: Galwun[/[0:0:0:0:0:0:0:1%0]:59288] logged in with entity id 230 at ([world]4588.765752947157, 68.0, -1482.2822574365184)
+[08:57:00] [Folia Async Scheduler Thread Timer/ERROR]: [DiscordSRV] Your AvatarUrl config option does not contain the {username} placeholder even though this server is using offline UUIDs.
+[08:57:00] [Folia Async Scheduler Thread Timer/ERROR]: [DiscordSRV] https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} will be used because the default value does not support offline mode servers
+[08:57:00] [Folia Async Scheduler Thread Timer/ERROR]: [DiscordSRV] You should set your AvatarUrl (in config.yml) to https://cravatar.eu/helmavatar/{username}/{size}.png#{texture} (or another url that supports usernames) to get rid of this error
+[09:09:40] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 0.32512725923207597
+[09:09:40] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 0.8804556661161342
+[09:09:40] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.3674371065102662
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.6148428225014229
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.5521978740755742
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.45818026394371
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.3336606071014145
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.298581150026493
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.2789826124306884
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.2789826124306884
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.3367915671488078
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.4157645245226078
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.5329858888723322
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.7502507157677485
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 1.9415529597777947
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 2.2620256791187785
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 2.52426898875612
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 2.8883529685545213
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 3.1900481086737784
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 3.538941456784002
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 3.93403932101009
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 4.370317312838694
+[09:09:41] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 4.848523886307113
+[09:09:42] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 5.335746959209921
+[09:09:42] [Server thread/WARN]: Oak Boat (vehicle of Galwun) moved wrongly! 5.832047772166121
+[09:16:22] [Server thread/INFO]: Galwun issued server command: /chestsort
+[09:26:02] [Server thread/INFO]: Galwun issued server command: /sethome wioska
+[09:27:13] [Server thread/INFO]: Galwun issued server command: /home wioska
+[09:29:19] [Server thread/INFO]: Galwun issued server command: /home home
+[09:31:32] [Server thread/INFO]: Galwun issued server command: /ench info meador
+[09:32:28] [Server thread/INFO]: Galwun issued server command: /ench info switch
+[09:32:58] [Server thread/INFO]: Galwun issued server command: /ench info mow
+[09:34:05] [Server thread/INFO]: Galwun issued server command: /ench info lumber
+[09:34:53] [Server thread/INFO]: Galwun issued server command: /ench info rainbow
+[09:41:50] [Server thread/INFO]: Galwun issued server command: /xp set Galwun 100l
+[09:44:33] [Server thread/INFO]: Galwun issued server command: /enchant respiration
+[09:45:15] [Server thread/INFO]: Galwun lost connection: Disconnected
+[09:45:15] [Server thread/INFO]: Galwun left the game
